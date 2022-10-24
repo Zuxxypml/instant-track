@@ -45,11 +45,11 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: #4834d4;
+  background: ;
   overflow-x: hidden;
-  background: -webkit-linear-gradient(to right, #4834d4, #341f97);
-  background: -webkit-linear-gradient(left, #4834d4, #341f97);
-  background: linear-gradient(to right, #4834d4, #341f97);
+  background: -webkit-linear-gradient(to right, yellow, rgb(222, 222, 15));
+  background: -webkit-linear-gradient(left, yellow,  rgb(222, 222, 15));
+  background: linear-gradient(to right, yellow,  rgb(222, 222, 15));
 }
 
 .darker-blue {
@@ -923,9 +923,9 @@ ol {
   border-radius: 100px;
   background-image: linear-gradient(
     to right,
-    #21d397 0%,
-    #7450fe 50%,
-    #21d397 100%
+    #d3cd21 0%,
+    #fe8150 50%,
+    #d3cd21 100%
   );
   background-image: -webkit-linear-gradient(
     to right,
@@ -1035,7 +1035,7 @@ ol {
   transition: all 0.5s ease-in;
 }
 .navbar-brand {
-  color: #fff;
+  color: black;
   font-size: 25px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -1050,17 +1050,17 @@ ol {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 1px;
-  color: #fff;
+  color: black;
 }
 .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #fff;
 }
 .navbar-expand-md .navbar-nav .dropdown-menu {
   border-top: 3px solid #fed136;
 }
 .dropdown-item:hover {
-  background-color: #fed136;
-  color: #fff;
+  background-color: #fff;
+  color: black;
 }
 nav {
   -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
@@ -1072,7 +1072,7 @@ nav {
 .shrink {
   animation: 0.3s ease-in-out;
   animation-name: fadeInDown;
-  background-color: rgb(215, 223, 239);
+  background-color: rgb(239, 238, 215);
 }
 
 @-webkit-keyframes fadeInDown {
@@ -1098,7 +1098,7 @@ nav {
 /* mobile view */
 @media (max-width: 500px) {
   .navbar {
-    background: rgb(215, 223, 239);
+    background: rgb(239, 238, 215);
   }
   .navbar-nav {
     border-top: 1px solid #fed136;
@@ -1115,7 +1115,7 @@ nav {
 .navbar-dark .navbar-toggler,
 .navbar-white .navbar-toggler,
 .navbar-cyan .navbar-toggler {
-  background: #086bfe;
+  background: #fed136;
   border-color: #333;
 }
 .navbar-white .navbar-toggler-icon {
@@ -1134,11 +1134,11 @@ nav {
     color: #333;
   }
   .navbar-expand-lg.navbar-dark {
-    background: rgb(215, 223, 239);
+    background: rgb(239, 238, 215);
   }
   .navbar-collapse {
     padding-top: 20px;
-    background: rgb(215, 223, 239);
+    background: rgb(239, 238, 215);
   }
 }
 .navbar-white.shrink .navbar-brand,
@@ -1561,7 +1561,7 @@ nav {
 }
 .special-head:before {
   content: "";
-  background: #05ffff;
+  background: #f3ff05;
   position: absolute;
   top: 50%;
   left: 0;
@@ -1733,7 +1733,7 @@ nav {
 }
 .header-ilustration-1 .video-btn-container .video-icon a {
   background: #fff;
-  color: #2ea9fd;
+  color: #fed136;
 }
 .bub-right {
   background: url("../../img/bg_hero.svg") no-repeat center right;
@@ -1900,7 +1900,7 @@ nav {
   left: 50%;
   top: -30%;
   transform: rotate(21deg);
-  background: rgba(0, 0, 128, 0.7);
+  background: rgba(128, 111, 0, 0.7);
 }
 .main-ilustration-3 .inovation {
   position: absolute;
@@ -1983,10 +1983,10 @@ nav {
   text-fill-color: transparent;
 }
 .gradient-text.blue {
-  background-image: linear-gradient(35deg, #17ead9 0%, #6078ea 100%);
+  background-image: linear-gradient(35deg, #e7ea17 0%, #eaa360 100%);
 }
 .gradient-text.cyan {
-  background-image: linear-gradient(135deg, cyan 0%, cyan 100%) !important;
+  background-image: linear-gradient(135deg, rgb(255, 217, 0) 0%, rgb(255, 217, 0) 100%) !important;
 }
 p.artficial {
   padding-left: 20px;
@@ -2361,10 +2361,10 @@ p.artficial:before {
     linear,
     left top,
     left bottom,
-    from(#dff0ff),
-    to(#f7f5ff)
+    from(#feffdf),
+    to(#fefff5)
   );
-  background-image: linear-gradient(180deg, #dff0ff, #f7f5ff);
+  background-image: linear-gradient(180deg, #feffdf, #fefff5);
 }
 .ab-wrapper {
   position: relative;
@@ -2816,7 +2816,7 @@ p.artficial:before {
   line-height: 50px;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #2da4ee;
+  border: 2px solid #eee12d;
 }
 .res-features {
   background: url(../../img/team-img/food/res-features.html) no-repeat center
@@ -2840,7 +2840,7 @@ p.artficial:before {
 .icon-font-box i {
   font-size: 24px;
   font-weight: 500;
-  color: #2da4ee;
+  color: #eee12d;
 }
 @media (max-width: 480px) {
   .icon-img-box,
@@ -3041,7 +3041,7 @@ p.artficial:before {
   top: 100%;
   width: 1px;
   height: 95%;
-  background: #25cbd3;
+  background: #f9d960;
 }
 
 .services-block-four:last-child .inner-box .icon-box:before {
@@ -3079,8 +3079,8 @@ p.artficial:before {
   width: 40px;
   height: 40px;
   border: 2px solid;
-  background: #7d60f9;
-  border-color: #7d60f9;
+  background: #f9d960;
+  border-color: #f9d960;
   font-size: 18px;
   color: #fff;
   line-height: 40px;
@@ -6789,7 +6789,7 @@ textarea:required {
 .footer-content-area {
   padding: 80px 0;
   margin-top: 100px;
-  background: #192057 !important;
+  background: rgb(215, 215, 29) !important;
 }
 .footer-content-area.demo {
   margin-top: 70px;
@@ -6869,21 +6869,21 @@ textarea:required {
   top: 0;
   left: 0;
   z-index: 10;
-  background: rgba(72, 52, 212, 0.95);
+  background: rgba(215, 215, 29, 0.95);
   background: -webkit-linear-gradient(
     to right,
-    rgba(72, 52, 212, 0.95),
-    rgba(52, 31, 151, 0.95)
+    rgba(215, 215, 29, 0.95),
+    rgba(220, 220, 19, 0.95)
   );
   background: -webkit-linear-gradient(
     left,
-    rgba(72, 52, 212, 0.95),
-    rgba(52, 31, 151, 0.95)
+    rgba(215, 215, 29, 0.95),
+    rgba(220, 220, 19, 0.95)
   );
   background: linear-gradient(
     to right,
-    rgba(72, 52, 212, 0.95),
-    rgba(52, 31, 151, 0.95)
+    rgba(215, 215, 29, 0.95),
+    rgba(220, 220, 19, 0.95)
   );
 }
 
@@ -8845,7 +8845,7 @@ body.light-version {
 
 .searchTerm {
   width: 100%;
-  border: 3px solid #086bfe;
+  border: 3px solid #fee708;
   border-right: none;
   padding: 10px;
   height: 40px;
@@ -8855,14 +8855,14 @@ body.light-version {
 }
 
 .searchTerm:focus {
-  color: #086bfe;
+  color: #fee708;
 }
 
 .searchButton {
   width: 40px;
   height: 40px;
-  border: 1px solid #086bfe;
-  background: #086bfe;
+  border: 1px solid #fee708;
+  background: #fee708;
   text-align: center;
   color: #fff;
   border-radius: 0;
