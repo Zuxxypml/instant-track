@@ -1905,6 +1905,13 @@ div.hopscotch-bubble .hopscotch-bubble-arrow-container.down .hopscotch-bubble-ar
 .bold{
   font-weight:700;
 }
+
+.bold-text{
+  color: #24ce70;
+}
+.bold-text:hover{
+  color: #3fa46c;
+}
 .main-payment-row{
   margin-top : 1em;
   margin-bottom:20px;
@@ -1915,7 +1922,7 @@ div.hopscotch-bubble .hopscotch-bubble-arrow-container.down .hopscotch-bubble-ar
 }
 
 .payment-title{
-	border-bottom:1px dashed #2af;
+	border-bottom:1px dashed #aff9cd;
 	padding:15px 30px;
 	margin-bottom:30px;
 }
@@ -1930,8 +1937,8 @@ div.hopscotch-bubble .hopscotch-bubble-arrow-container.down .hopscotch-bubble-ar
 }
 
 .payment-timmer-line {
-  border-top: 2px solid #2af;
-  border-bottom : 2px solid #2af;
+  border-top: 2px solid #aff9cd;
+  border-bottom : 2px solid #aff9cd;
   margin : 1em 0;
   padding:10px  22px 10px 5px;
 }
@@ -1975,7 +1982,7 @@ div.hopscotch-bubble .hopscotch-bubble-arrow-container.down .hopscotch-bubble-ar
 }
 
 .notice{margin-left:2em; font-weight:500;}
-#m_timer{ color :#2af; font-weight:600; font-size : 16px;}
+#m_timer{ color :#aff9cd; font-weight:600; font-size : 16px;}
 .tips{
   display: inline;
   position: relative;
